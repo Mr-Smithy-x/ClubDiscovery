@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1">
+        <item
+            android:id="@+id/menu_home"
+            android:title="Home" />
+        <item android:title="Clubs"
+            android:id="@+id/menu_clubs"/>
+        <item android:title="Interest"
+            android:id="@+id/menu_interest"
+            />
+        <item android:title="Announcements"
+            android:id="@+id/menu_announcements"/>
+    </group>
+    <item android:title="Settings"
+        android:id="@+id/menu_settings"
+        />
+    <item android:title="Feedback"
+        android:id="@+id/menu_feedback"/>
+</menu>

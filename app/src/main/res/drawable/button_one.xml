@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/button_one_radius"/>
+            <solid android:color="@color/blueish"/>
+            <stroke android:color="@color/blueish" android:width="1dp"/>
+            <padding android:bottom="@dimen/button_one_padding" android:left="@dimen/button_one_padding" android:right="@dimen/button_one_padding" android:top="@dimen/button_one_padding"/>
+        </shape>
+        <ripple android:color="#fff" android:radius="8dp"/>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/button_one_radius"/>
+            <solid android:color="#5081ff"/>
+            <stroke android:color="#5081ff" android:width="1dp"/>
+            <padding android:bottom="@dimen/button_one_padding" android:left="@dimen/button_one_padding" android:right="@dimen/button_one_padding" android:top="@dimen/button_one_padding"/>
+        </shape>
+        <ripple android:color="#fff" android:radius="8dp"/>
+    </item>
+</selector>

@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#ff4433</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeFull" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="BluishAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blueish</item>
+        <item name="colorPrimaryDark">@color/blueishDarker</item>
+        <item name="colorAccent">#fff</item>
+    </style>
+
+    <style name="editextStyleOne">
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/edit_text_one</item>
+    </style>
+
+    <style name="buttonStyleOne">
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">@drawable/button_one</item>
+    </style>
+
+    <style name="toolbarSearchStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:background">@drawable/toolbar_search</item>
+    </style>
+
+    <style name="whiteStyledText">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="whiteStyledText.Bold" parent="whiteStyledText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <color name="blueishDarker">#2051cc</color>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
